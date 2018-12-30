@@ -14,7 +14,8 @@ int main()
 		int a[n][n],i,j,k=1,l;
 		a[0][0]=1;
 		l=n;
-
+		
+		//For first row
 		for(j=1;j<n;j++)
 		{
 			a[0][j]=a[0][j-1]+k;
